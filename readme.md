@@ -20,6 +20,6 @@
 ## Documentation
 
 Detailed API documentation is available via Swagger.  
-**`/docs`**
+**https://inspire-verse.onrender.com/docs**
 
 ---
