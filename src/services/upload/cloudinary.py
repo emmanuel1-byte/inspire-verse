@@ -27,7 +27,7 @@ def upload_to_cloudinary(text: str, public_id: str):
         buffer.seek(0)
 
         uploaded_file = upload(buffer, resource_type="auto", public_id=public_id)
-        print(f"File uploaded succesfully {uploaded_file.get("public_id")}")
+        print(f"File uploaded succesfully {uploaded_file.get('public_id')}")
 
         return uploaded_file.get("url")
     except Exception as e:
